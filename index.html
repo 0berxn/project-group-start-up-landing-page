@@ -7,44 +7,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="Img/Logo.jpg">
   <title>Chaldea Voyager</title>
 </head>
 
 <body>
-  <div class="main-container">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <div class="main-container" >
+    <nav class="navbar navbar-expand-lg " >
       <div class="container-fluid ">
-        <a class="navbar-brand" href="#">Chaldea Voyager</a>
+        <a class="navbar-brand" href="#">Chaldea Voyager <img src="Img/Logo.jpg" class="logo" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ">
-            <li class="nav-item">
+          <ul class="navbar-nav nav-ul ">
+            <li class="nav-item nav-li">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav-li">
               <a class="nav-link active" href="#scrollspyFeatures">Features</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav-li">
               <a class="nav-link active" href="#scrollspyAbout">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#scrollspyPackage">Package</a>
+            <li class="nav-item nav-li">
+              <a class="nav-link active" href="member.html">Team</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#scrollspyTeam">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#scrollspyContact">Contact</a>
+            <li class="nav-item nav-li">
+              <a  class="nav-link active" href="#scrollspyContact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" >
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -53,15 +59,15 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
           aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-inner">
+      <div class="carousel-inner" data-aos="fade-up" data-aos-duration="1500">
         <div class="carousel-item active">
-          <img src="Img/PIC01.jpg" class="d-block w-100" alt="...">
+          <img src="Img/PIC01.jpg" class="d-block w-100 img-cover" alt="...">
+        </div>
+        <div class="carousel-item"> 
+          <img src="Img/PIC02.jpg"class="d-block w-100 img-cover" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="Img/PIC01.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="Img/PIC01.jpg" class="d-block w-100" alt="...">
+          <img src="Img/PIC03.jpg" class="d-block w-100 img-cover" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -74,10 +80,12 @@
       </button>
     </div>
   </div>
+  <h1>Hi! All Mysterious Voyager</h1>
   <div class="progress-container">
-    <h1> In Progress Voyager</h1>
-    <div class="progress-box">
-      <div class="card-progress">
+    <h2>In Progress Voyager</h2>
+      <button class="btn-"  data-aos="fade-up" data-aos-duration="1500">Download<i class="fa-solid fa-download"></i></button>
+    <div class="progress-box" data-aos="fade-up" data-aos-duration="1500">
+      <div class="card-progress" >
         <img class="img-cover" src="Img/OrleansPIC.jpg" alt="">
         <div class="card-progress-text">
           <p>Location</p>
@@ -87,8 +95,8 @@
             <p>End</p>
           </div>
           <div class="text-date">
-            <h6>03-Septem-2017</h6>
-            <h6>03-Septem-2017</h6>
+            <h6>03-Septem-2023</h6>
+            <h6>03-Septem-2023</h6>
           </div>
         </div>
         <hr>
@@ -106,8 +114,8 @@
             <p>End</p>
           </div>
           <div class="text-date">
-            <h6>03-Septem-2017</h6>
-            <h6>03-Septem-2017</h6>
+            <h6>03-Septem-2023</h6>
+            <h6>03-Septem-2023</h6>
           </div>
         </div>
         <hr>
@@ -120,17 +128,17 @@
   <div class="features-container " id="scrollspyFeatures">
     <h1>Features & Service </h1>
     <div class="features-box">
-      <div class="card-features">
+      <div class="card-features"  data-aos="fade-right" data-aos-duration="1500">
         <i class="fa-solid fa-earth-americas fa-4x"></i>
         <h4>Historical Tourism</h4>
         <p>It is a tour that focuses on history. in each location for tourists to get to knowledge the history of the place or story of the past according  from the real place.</p>
       </div>
-      <div class="card-features">
+      <div class="card-features" data-aos="fade-down" data-aos-duration="1500">
         <i class="fa-solid fa-piggy-bank fa-4x"></i>
         <h4>Budget Tour</h4>
         <p>We have allocated a tour that is the most worthwhile for customers who come to use the service.So that customers who come to use the service can travel at a cheap price.</p>
       </div>
-      <div class="card-features">
+      <div class="card-features "  data-aos="fade-left" data-aos-duration="1500">
         <i class="fa-solid fa-star  fa-4x"></i>
         <h4>Exclusive Activity</h4>
         <p> "Exclusive Activity at specific locations" That will make your customers excited with the trip By the Special events We have organized activities uniquely.</p>
@@ -140,19 +148,23 @@
   <div class="about-container" id="scrollspyAbout">
     <div class="about-box">
       <div class="about-card">
-          <h2>Who we are</h2>
+          <h2>Who We Are</h2>
           <p>Strat up Travel Agency Created to meet the needs of customers who love anime, play games and travel And interested in places from games or anime based on the real world. that actually has that place and would like to experience that place
           </p>
+          <button class="btn-"  data-aos="fade-right" data-aos-duration="1500">Join US</button>
       </div>
     </div>
   </div>
   <div class="package-container" id="scrollspyPackage">
        <h1>Now Package For Voyager </h1>
-       <h3>With Campaign Chaldea Voyager X Fate/Grand Order</h3>
-    <div id="carouselExample" class="carousel slide">
+      <div class="package-text">
+        <h3>With Campaign Chaldea Voyager X</h3>
+       <img class="logo-img" src="Img/Fate_Grand_Order_Logo.png" alt="">
+      </div>
+    <div id="carouselExample" class="carousel slide" data-aos="fade-up"  data-aos-duration="1500">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <div class="package-box">
+          <div class="package-box"  >
             <div class="card-package">
               <img class="img-head" src="Img/S01.png" alt="">
               <img class="img-cover" src="Img/FuyukiPIC.png" alt="">
@@ -176,7 +188,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <div class="package-box">
+          <div class="package-box" >
             <div class="card-package">
               <img class="img-head" src="Img/S05.png" alt="">
               <img class="img-cover" src="Img/LondonPIC.jpg" alt="">
@@ -212,22 +224,57 @@
 
   </div>
   <footer>
-
+      <div class="footer-container" id="scrollspyContact">
+        <h4>Follow Us</h4>
+        <div class="contact-logo">
+          <i class="fa-brands fa-facebook fa-2x"></i>
+          <i class="fa-brands fa-twitter fa-2x"></i>
+          <i class="fa-brands fa-linkedin fa-2x"></i>
+          <i class="fa-brands fa-google-plus fa-2x"></i>
+        </div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#scrollspyFeatures">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#scrollspyAbout">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#scrollspyTeam">Team</a>
+        </li>
+        <li class="nav-item">
+          <a  class="btn" id="liveToastBtn">Send Contact</a>
+        </li>
+      </ul>
+      <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+            <strong class="me-auto">Contact Me</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+            <form class="" action="mailto:(your gmail)" method="post"        enctype="text/plain">
+                <label>Name : </label>
+                <input type="text" name="name_surname" value=""><br>
+                <label>Lastname : </label>
+                <input type="text" name="name_surname" value=""><br>
+                <label>E-mail : </label>
+                <input type="email" name="email" value=""><br>
+                <label>Phone : </label>
+                <input type="text" name="name_surname" value=""><br>
+                <label>Message To Send:</label><br>
+                <textarea name="message" rows="8" cols=""></textarea><br>
+                <input type="submit" name="" value="Submit"> 
+          </form>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">Chaldea Voyager © 2023</p>
+      </div>
   </footer>
-  <!-- <div class="member-container " id="scrollspyTeam">
-    <h1>Team Member</h1>
-    <div class="team-box">
-      <div class="card-member">
-
-      </div>
-      <div class="card-menber">
-
-      </div>
-      <div class="card-member">
-
-      </div>
-    </div>
-  </div> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
